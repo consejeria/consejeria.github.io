@@ -69,7 +69,12 @@ body{
 }
 .horas{
 	width: 100px;
+	-webkit-width: 100px;
+	-moz-width: 100px;
+
 	font-size: 20px;
+	-webkit-font-size: 20px;
+	-moz-font-size: 20px;
 
 }
 .boton{
@@ -110,4 +115,7 @@ fieldset{
 	width: 800px;
 	margin: auto;
 
+}
+footer{
+	color: #E6E6E6;
 }
