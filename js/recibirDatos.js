@@ -195,18 +195,13 @@ botonImprimir.addEventListener("click", imprimirCalendario);
 
 
 
+
 //Dibujando filas
 
 for(i=1; i < filas; i++){
 	dibujarCeldas(0, i);
 }
 
-//Dibujando Columnas
- 
-for(i=1; i <= columnas; i++){
-	dibujarCeldas(i, 0);
-
-}
 //Definiendo el color de las celdas a través de la función definirCelda
 definirCelda(celdaLunes.x, celdaLunes.y, celdaLunes.ancho, celdaLunes.alto);
 definirCelda(celdaMartes.x, celdaMartes.y, celdaMartes.ancho, celdaMartes.alto);
@@ -215,6 +210,14 @@ definirCelda(celdaJueves.x, celdaJueves.y, celdaJueves.ancho, celdaJueves.alto);
 definirCelda(celdaViernes.x, celdaViernes.y, celdaViernes.ancho, celdaViernes.alto);
 definirCelda(celdaSabado.x, celdaSabado.y, celdaSabado.ancho, celdaSabado.alto);
 definirCelda(celdaDomingo.x, celdaDomingo.y, celdaDomingo.ancho, celdaDomingo.alto);
+
+//Dibujando Columnas
+ 
+for(i=1; i <= columnas; i++){
+	dibujarCeldas(i, 0);
+
+}
+
 
 
 
